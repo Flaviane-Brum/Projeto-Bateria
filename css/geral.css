@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+span {
+  color: #fff;
+  font-weight: bold;
+}
+h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.logo img {
+  width: 50px;
+}
+.key.active {
+  background-color: #c30103;
+  box-shadow: 0px 0px 0 3px #000, inset -20px -19px 20px 12px #5a0202;
+}
+.div-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 20px 0px 20px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+@keyframes tremer-up {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: 7px;
+  }
+  50% {
+    margin-top: 0;
+  }
+  75% {
+    margin-top: -7px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}

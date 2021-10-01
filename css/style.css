@@ -1,0 +1,42 @@
+@import "geral.css";
+@import "bumbo.css";
+@import "tom-tom.css";
+@import "tom-tom-2.css";
+@import "surdo.css";
+@import "prato-conducao.css";
+@import "caixa.css";
+@import "chimbau.css";
+@import "responsivo.css";
+
+.composer {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.composer input {
+  padding: 5px;
+  color: #333;
+  outline: none;
+  border-radius: 5px;
+
+  border: 0;
+}
+
+.composer button {
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  background-color: #f9eb60;
+}
+.composer input::placeholder {
+  color: #000;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  font: 25px;
+  font-weight: bold;
+}

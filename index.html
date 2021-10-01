@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <title>bateria</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./screens/icone.svg" alt="Logo bateria" />
+      <h1>Bateria</h1>
+    </div>
+
+    <div class="div-flex">
+      <!-- Surdo -->
+      <div class="div-surdo">
+        <div class="surdo-borda-top key" data-key="keys"></div>
+        <span>S</span>
+
+        <div class="surdo"></div>
+        <div class="surdo-borda-bottom"></div>
+        <div class="pe-surdo">
+          <div class="subpe-surdo-left"></div>
+          <div class="subpe-surdo-right"></div>
+        </div>
+        <div class="pe-surdo-central">
+          <div class="subpe-surdo-central"></div>
+        </div>
+
+        <!-- prato conduçao -->
+
+        <div class="prato" data-key="keya"></div>
+        <p class="prato-span">A</p>
+
+        <div class="apoio-prato"></div>
+        <div class="ferro-conducao"></div>
+        <div class="pe-conducao"></div>
+      </div>
+
+      <!-- bumbo -->
+      <div class="div-bumbo">
+        <div class="ferro-bumbo"></div>
+        <div class="ferro-bumbo-2"></div>
+
+        <div class="cabeca-bumbo"></div>
+        <div class="bumbo-corpo"></div>
+        <div class="bumbo key" data-key="keyq">
+          <span>Q</span>
+          <div class="borda-dupla"></div>
+        </div>
+        <div class="pe-bumbo"></div>
+        <!-- Tom Tom -->
+        <span class="tom-tom-span">W</span>
+
+        <div class="borda-top key" data-key="keyw"></div>
+        <div class="tom-tom"></div>
+        <div class="borda-bottom"></div>
+
+        <span class="tom-tom-2-span">E</span>
+        <!-- Tom Tom 2 -->
+
+        <div class="borda-top-2 key" data-key="keye"></div>
+        <div class="tom-tom-2"></div>
+        <div class="borda-bottom-2"></div>
+      </div>
+      <!-- Caixa -->
+      <div class="div-caixa">
+        <span>D</span>
+        <div class="caixa-borda-top key" data-key="keyd"></div>
+        <div class="caixa"></div>
+        <div class="caixa-borda-bottom"></div>
+        <div class="pe-caixa">
+          <div class="subpe-caixa-left"></div>
+          <div class="subpe-caixa-right"></div>
+        </div>
+        <div class="pe-caixa-central">
+          <div class="subpe-caixa-central"></div>
+        </div>
+        <!-- chimbau -->
+        <p class="chimbau-span">Z</p>
+
+        <div class="chimbau-top" data-key="keyz"></div>
+        <div class="chimbau-bottom"></div>
+        <div class="apoio-chimbau"></div>
+        <div class="ferro-chimbau"></div>
+        <div class="pe-chimbau"></div>
+      </div>
+    </div>
+    <div class="composer">
+      <input type="text" id="input" placeholder="Faça uma composição..." />
+      <button>Tocar</button>
+    </div>
+
+    <audio id="s_keyq" src="sounds/bum.mp3"></audio>
+    <audio id="s_keyw" src="sounds/tomtom1.mp3"></audio>
+    <audio id="s_keye" src="sounds/tomtom2.mp3"></audio>
+    <audio id="s_keya" src="sounds/prato.mp3"></audio>
+    <audio id="s_keys" src="sounds/surd.mp3"></audio>
+    <audio id="s_keyd" src="sounds/caix.mp3"></audio>
+    <audio id="s_keyz" src="sounds/chimbau.mp3"></audio>
+
+    <script src="script.js"></script>
+    <footer><p>Criado por Flaviane Brum</p></footer>
+  </body>
+</html>
